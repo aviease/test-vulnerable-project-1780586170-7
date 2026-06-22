@@ -1,0 +1,62 @@
+module github.com/aviease/vulnerable-app
+
+go 1.19
+
+require (
+	golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975
+	golang.org/x/text v0.3.0
+	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/gorilla/websocket v1.4.0
+	github.com/gin-gonic/gin v1.4.0
+	github.com/labstack/echo v3.3.10+incompatible
+	github.com/astaxie/beego v1.12.0
+	github.com/go-sql-driver/mysql v1.4.1
+	github.com/lib/pq v1.2.0
+	github.com/mattn/go-sqlite3 v1.11.0
+	github.com/go-redis/redis v6.15.5+incompatible
+	github.com/miekg/dns v1.1.15
+	github.com/hashicorp/consul/api v1.2.0
+	github.com/hashicorp/vault/api v1.0.4
+	github.com/coreos/etcd v3.3.13+incompatible
+	github.com/nats-io/nats.go v1.8.1
+	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
+	github.com/Shopify/sarama v1.23.1
+	github.com/docker/docker v1.13.1
+	github.com/opencontainers/runc v1.0.0-rc8
+	github.com/containerd/containerd v1.2.7
+	github.com/kubernetes/client-go v0.17.0
+	github.com/gogo/protobuf v1.2.1
+	github.com/golang/protobuf v1.3.1
+	github.com/grpc-ecosystem/grpc-gateway v1.9.5
+	google.golang.org/grpc v1.22.0
+	github.com/prometheus/client_golang v1.1.0
+	github.com/sirupsen/logrus v1.4.2
+	go.uber.org/zap v1.10.0
+	github.com/spf13/cobra v0.0.5
+	github.com/spf13/viper v1.4.0
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/pelletier/go-toml v1.4.0
+	gopkg.in/yaml.v2 v2.2.2
+	github.com/tidwall/gjson v1.3.2
+	github.com/buger/jsonparser v0.0.0-20191004114745-ee4c978eae7e
+	github.com/valyala/fasthttp v1.4.0
+	github.com/go-chi/chi v4.0.2+incompatible
+	github.com/julienschmidt/httprouter v1.2.0
+	github.com/gorilla/mux v1.7.3
+	github.com/urfave/negroni v1.0.0
+	github.com/satori/go.uuid v1.2.0
+	github.com/google/uuid v1.1.1
+	github.com/rs/xid v1.2.1
+	github.com/robfig/cron v1.2.0
+	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/allegro/bigcache v1.2.1
+	github.com/coocood/freecache v1.1.0
+	github.com/syndtr/goleveldb v1.0.0
+	github.com/boltdb/bolt v1.3.1
+	github.com/dgraph-io/badger v1.6.0
+	github.com/mholt/archiver v3.1.1+incompatible
+	github.com/ulikunitz/xz v0.5.6
+	github.com/pierrec/lz4 v2.2.6+incompatible
+	github.com/klauspost/compress v1.7.6
+)
