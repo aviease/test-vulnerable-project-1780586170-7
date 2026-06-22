@@ -31,7 +31,7 @@ click==7.0
 itsdangerous==1.1.0
 markupsafe==1.1.0
 pygments==2.5.0
-sphinx==2.0.0
+sphinx==9.1.0
 docutils==0.14
 babel==2.6.0
 python-dateutil==2.7.0
